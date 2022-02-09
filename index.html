@@ -6,38 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    <header>
-        <img src="assets/Logo.jpg" alt="Our Logo" style="display: block;margin-left: auto;margin-right: auto;width: 200px;">
-        <label style="display: block;text-align: center;line-height: 150%;font-size:larger;">ToDo</label>
+    <header class="header">
+        <img src="assets/Logo.jpg" alt="Our Logo" id="logo" >
+        <label id="Site_Name">ToDo List</label>
         <nav>
             <a href="about.html">About page</a>
+            <a href="index.html">Refresh</a>
+            <a href="https://twitter.com/Mohammad_Naji10">My Twitter</a>
+            <a href="https://web.facebook.com/Mohammad.Naji.Alkhresheh.1998">My Facebook</a>
+            <a href="https://github.com/MohammadNaji98">My Github</a>
         </nav>
         
     </header>
     <br><br>
-    <main>
-        <table style="width: 100%">
+    <main class="main">
+        <table id="task_table">
             <tr>
                 <th>Tasks</th>
                 <th>Status</th>
             </tr>
         <tr>
-            <td>Pray</td>
+            <td>Pray<input type="checkbox" checked></td>
+            <td>&#9989;</td>
         </tr>
         <tr>
-            <td>Play PUBG</td>
+            <td>Play PUBG<input type="checkbox"></td>
+            <td>&#10060;</td>
         </tr>
         <tr>
-            <td>Programming</td>
+            <td>Programming<input type="checkbox"></td>
+            <td>&#10060;</td>
         </tr>
         </table>
+
     </main>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
-        <a href="https://twitter.com/Mohammad_Naji10" style="display: block;text-align: center;line-height: 150%;font-size:medium;"><i style="font-size:24px" class="fa">&#xf099;</i></a>
-        <label style="display: block;text-align: center;line-height: 150%;font-size:medium;">© All rights reserved 2022</label>    
+        <a href="https://twitter.com/Mohammad_Naji10"><i class="fa">&#xf099;</i></a>
+        <label>All rights reserved © 2022</label>    
     </footer>
 </body>
 </html>
