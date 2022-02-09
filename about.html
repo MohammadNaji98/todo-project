@@ -6,43 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/about.css">
 </head>
 <body>
     <header>
-        <img src="assets/Logo.jpg" alt="Our Logo" style="display: block;margin-left: auto;margin-right: auto;width: 200px;">
-        <label style="display: block;text-align: center;line-height: 150%;font-size:larger;">ToDo</label>
+        <img src="assets/Logo.jpg" alt="Our Logo" id="logo">
+        <label id="Site_Name">ToDo List</label>
         <nav>
             <a href="index.html">Home page</a>
+            <a href="about.html">Refresh</a>
+            <a href="https://twitter.com/Mohammad_Naji10">My Twitter</a>
+            <a href="https://web.facebook.com/Mohammad.Naji.Alkhresheh.1998">My Facebook</a>
+            <a href="https://github.com/MohammadNaji98">My Github</a>
         </nav>
     </header>
     <br><br>
     <main>
-        <form action="" style="border:blue; border-width:5px; border-style:outset;">
-        <img src="assets/Mohammad.jpg" alt="This is my photo" style="display: block;margin-left: auto;margin-right: auto;width: 200px;">
-        <p style="display: block;text-align: center;line-height: 150%;font-size:larger;">Hello, I'm Mohammad Naji AlKhresheh I am 23 years old, from Al Karak. I graduated from Mutah University in 2021 with a major in software engineering. I count myself as a huge Microsoft fan, and I'm here to do what I do best.</p>
-        <br><br>
-        This is my: <br>
-        <a href="https://twitter.com/Mohammad_Naji10">Twitter</a><br>
-        <a href="https://web.facebook.com/Mohammad.Naji.Alkhresheh.1998">Facebook</a><br>
-        </form>
-        <br><br><br>
-        <form action="" style="border:rgb(206, 14, 14); border-width:5px; border-style:outset;">
-            <label style="display: block;text-align: center;line-height: 150%;font-size:larger;">Your Name :</label>
-            <input type="text" placeholder="Type your name here" style="display: block;margin-left: auto;margin-right: auto;width: 200px;">
-            <label style="display: block;text-align: center;line-height: 150%;font-size:larger;">Your Email :</label>
-            <input type="text" placeholder="Type your email here" style="display: block;margin-left: auto;margin-right: auto;width: 200px;">
-            <label style="display: block;text-align: center;line-height: 150%;font-size:larger;">Your Message :</label>
-            <textarea name="" id="" cols="15" rows="10" placeholder="Type your Message here" style="display: block;margin-left: auto;margin-right: auto;width: 200px;" ></textarea>
-            <br><br><br>
-            <input type="submit" style="display: block;margin-left: auto;margin-right: auto;width: 200px;">
-            <br><br><br>
-        </form>
-
+    <section class="hero">
+        <div class="hero-content">
+        <img src="assets/Mohammad.jpg" alt="This is my photo" >
+        </div>
+        <div class="hero-content2">
+            <h1>Mohammad Naji Alkhresheh</h1>
+            <p >Hello, I'm Mohammad Naji AlKhresheh I am 23 years old, from Al Karak. I graduated from Mutah University in 2021 with a major in software engineering. I count myself as a huge Microsoft fan, and I'm here to do what I do best.</p>
+        </div>
+    </section>
+    <section class="message_me">
+        <div class="message-content">
+            <h1>Contact Me</h1>
+                <label>Your Name :</label>
+                <input type="text" placeholder="Type your name here" >
+                <br><br>
+                <label >Your Email :</label>
+                <input type="text" placeholder="Type your email here" >
+                <br><br>
+                <label >Your Message :</label>
+                <textarea name="" id="" cols="16" rows="10" placeholder="Type your Message here"  ></textarea>
+                <br><br>
+                <div class="mesasage-content2">
+                <button>Send</button>
+                </div>
+            
+        </div>
+    </section>    
     </main>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
-        <a href="https://twitter.com/Mohammad_Naji10" style="display: block;text-align: center;line-height: 150%;font-size:medium;"><i style="font-size:24px" class="fa">&#xf099;</i></a>
-        <label style="display: block;text-align: center;line-height: 150%;font-size:medium;">© All rights reserved 2022</label>    
+        <a href="https://twitter.com/Mohammad_Naji10"><i class="fa">&#xf099;</i></a>
+        <label>All rights reserved © 2022</label>    
     </footer>
 </body>
 </html>
