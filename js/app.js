@@ -33,7 +33,6 @@ function showQuestions(arr) {
     // checkAndAddToArray(prompt("Are you have a Car ?").toLowerCase());
     // checkAndAddToArray(prompt("Do you watch football ?").toLowerCase());
     // checkAndAddToArray(prompt("Do you play video games ?").toLowerCase());
-
 };
 function checkAndAddToArray(answer) {
     if (answer == "yes" || answer == "no") {
